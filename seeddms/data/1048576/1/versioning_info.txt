@@ -1,0 +1,32 @@
+Draft Surat Tugas Welmina (ID 1)
+
+Owner = chaidir <chaidir@gmail.com>
+Created = 2025-03-13 08:35:44
+
+### Current version ###
+
+Version = 1
+File = Draft Surat Tugas Welmina.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)
+Comment = 
+Status = Obsolete
+
+### Reviewers ###
+
+User = rasyid
+Status = Reviewed
+Comment = Mantap
+Last Update = 2025-03-13 08:36:41
+
+User = ridho
+Status = Reviewed
+Comment = Sudah saya tambahkan di gdocs
+Last Update = 2025-03-13 08:37:22
+
+### Approvers ###
+
+User = rasyid
+Status = Approved
+Comment = Sudah oke
+Last Update = 2025-03-13 08:39:33
+
+### Previous versions ###

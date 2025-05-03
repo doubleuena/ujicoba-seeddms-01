@@ -1,0 +1,10 @@
+Mar 16 10:06:27  [info] -- (10.240.0.69) op.Login.php 
+Mar 16 10:06:27  [info] Authentication service 'db'
+Mar 16 10:06:27  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Mar 16 10:07:24  [info] admin (10.240.0.69) op.SubstituteUser.php?userid=8&formtoken=fb0b06d68007d1411a2ed30f3c0c2ef4 ?userid=8
+Mar 16 10:07:56  [info] neli (10.240.0.69) op.ResetSu.php 
+Mar 16 10:08:05  [info] admin (10.240.0.69) op.SubstituteUser.php?userid=5&formtoken=fb0b06d68007d1411a2ed30f3c0c2ef4 ?userid=5
+Mar 16 10:08:18  [info] chaidir (10.240.0.69) op.ResetSu.php 
+Mar 16 16:31:54  [info] -- (10.240.3.196) op.Login.php 
+Mar 16 16:31:54  [info] Authentication service 'db'
+Mar 16 16:31:54  [info] Authentication service 'db': Authentication of user 'admin' successful.

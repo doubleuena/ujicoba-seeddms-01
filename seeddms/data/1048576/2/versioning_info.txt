@@ -1,0 +1,32 @@
+Draft Laporan Hasil Eksplorasi Uranium di Cepu Jawa Tengah (ID 2)
+
+Owner = neli <neli@gmail.com>
+Created = 2025-03-14 15:37:44
+
+### Current version ###
+
+Version = 1
+File = Draft Laporan Hasil Eksplorasi Uranium di Cepu Jawa Tengah.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)
+Comment = 
+Status = Obsolete
+
+### Reviewers ###
+
+User = amir
+Status = Reviewed
+Comment = Sudah aman
+Last Update = 2025-03-14 15:39:02
+
+User = ari
+Status = Reviewed
+Comment = Aman mbak
+Last Update = 2025-03-14 15:39:52
+
+### Approvers ###
+
+User = amir
+Status = Approved
+Comment = Sudah bisa di upload
+Last Update = 2025-03-14 15:44:49
+
+### Previous versions ###

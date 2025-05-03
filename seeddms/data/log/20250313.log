@@ -1,3 +1,51 @@
 Mar 13 08:11:29  [info] -- (10.240.2.23) op.Login.php 
 Mar 13 08:11:29  [info] Authentication service 'db'
 Mar 13 08:11:29  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Mar 13 08:22:51  [info] admin (10.240.2.99) op.RoleMgr.php .php&action=addrole&name=Manager
+Mar 13 08:23:10  [info] admin (10.240.2.99) op.RoleMgr.php .php&action=addrole&name=Staff
+Mar 13 08:23:29  [info] admin (10.240.2.99) op.RoleMgr.php .php&action=addrole&name=Secretary
+Mar 13 08:23:51  [info] admin (10.240.2.99) op.GroupMgr.php &action=addgroup&name=Divisi Umum
+Mar 13 08:24:08  [info] admin (10.240.2.99) op.GroupMgr.php ?groupid=1&action=editgroup
+Mar 13 08:25:02  [info] admin (10.240.2.99) op.UsrMgr.php .php&action=adduser&login=rasyid
+Mar 13 08:25:55  [info] admin (10.240.2.99) op.UsrMgr.php .php&action=adduser&login=ridho
+Mar 13 08:26:45  [info] admin (10.240.2.99) op.UsrMgr.php .php&action=adduser&login=chaidir
+Mar 13 08:27:18  [info] admin (10.240.2.99) op.AddSubFolder.php ?name=Divisi Umum&folderid=1
+Mar 13 08:28:17  [info] admin (10.240.2.23) op.FolderAccess.php?formtoken=393ba957bda12d76eab51e2bdb79517a&folderid=2&action=notinherit&mode=empty 
+Mar 13 08:28:24  [info] admin (10.240.2.23) op.FolderAccess.php?formtoken=393ba957bda12d76eab51e2bdb79517a&folderid=2&action=setdefault&mode=1 
+Mar 13 08:28:44  [info] admin (10.240.3.196) op.FolderAccess.php?formtoken=393ba957bda12d76eab51e2bdb79517a&folderid=2&action=addaccess&userid=-1&groupid=1&mode=2 
+Mar 13 08:28:51  [info] admin (10.240.3.196) op.FolderAccess.php?formtoken=393ba957bda12d76eab51e2bdb79517a&folderid=2&action=editaccess&groupid=1&mode=2 
+Mar 13 08:28:54  [info] admin (10.240.3.196) op.FolderAccess.php?formtoken=393ba957bda12d76eab51e2bdb79517a&folderid=2&action=editaccess&groupid=1&mode=2 
+Mar 13 08:29:27  [info] admin (10.240.3.196) op.SubstituteUser.php?userid=5&formtoken=f32da9023eaed5ef264fb96685c2d8d7 ?userid=5
+Mar 13 08:31:08  [info] chaidir (10.240.2.99) op.ResetSu.php 
+Mar 13 08:31:33  [info] admin (10.240.2.99) op.FolderAccess.php?formtoken=393ba957bda12d76eab51e2bdb79517a&folderid=2&action=addaccess&userid=-1&groupid=1&mode=4 
+Mar 13 08:31:37  [info] admin (10.240.2.99) op.FolderAccess.php?formtoken=393ba957bda12d76eab51e2bdb79517a&folderid=2&action=editaccess&groupid=1&mode=2 
+Mar 13 08:31:45  [info] admin (10.240.2.99) op.FolderAccess.php?formtoken=393ba957bda12d76eab51e2bdb79517a&folderid=2&action=editaccess&groupid=1&mode=4 
+Mar 13 08:32:00  [info] admin (10.240.2.99) op.FolderAccess.php?formtoken=393ba957bda12d76eab51e2bdb79517a&folderid=2&action=addaccess&userid=-1&groupid=1&mode=4 
+Mar 13 08:32:10  [info] admin (10.240.2.99) op.SubstituteUser.php?userid=5&formtoken=f32da9023eaed5ef264fb96685c2d8d7 ?userid=5
+Mar 13 08:32:36  [info] chaidir (10.240.2.99) op.AddSubFolder.php ?name=Surat Tugas Welmina&folderid=2
+Mar 13 08:35:44  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'rasyid@gmail.com' (3) failed.
+Mar 13 08:35:44  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'ridho@gmail.com' (3) failed.
+Mar 13 08:35:44  [info] chaidir (10.240.0.69) op.AddDocument.php add document 1 in folder 3
+Mar 13 08:35:56  [info] chaidir (10.240.0.69) op.ResetSu.php 
+Mar 13 08:36:09  [info] admin (10.240.0.69) op.SubstituteUser.php?userid=3&formtoken=f32da9023eaed5ef264fb96685c2d8d7 ?userid=3
+Mar 13 08:36:41  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'chaidir@gmail.com' (6) failed.
+Mar 13 08:36:41  [info] rasyid (10.240.4.161) op.ReviewDocument.php documentid=1&version=1&reviewType=ind&reviewStatus=1
+Mar 13 08:36:47  [info] rasyid (10.240.4.3) op.ResetSu.php 
+Mar 13 08:36:55  [info] admin (10.240.4.3) op.SubstituteUser.php?userid=4&formtoken=f32da9023eaed5ef264fb96685c2d8d7 ?userid=4
+Mar 13 08:37:22  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'chaidir@gmail.com' (6) failed.
+Mar 13 08:37:22  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'chaidir@gmail.com' (2) failed.
+Mar 13 08:37:22  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'rasyid@gmail.com' (4) failed.
+Mar 13 08:37:22  [info] ridho (10.240.4.3) op.ReviewDocument.php documentid=1&version=1&reviewType=ind&reviewStatus=1
+Mar 13 08:37:30  [info] ridho (10.240.4.3) op.ResetSu.php 
+Mar 13 08:37:36  [info] admin (10.240.4.3) op.SubstituteUser.php?userid=5&formtoken=f32da9023eaed5ef264fb96685c2d8d7 ?userid=5
+Mar 13 08:38:45  [info] chaidir (10.240.4.3) op.AddFile.php add file 'Final Surat Tugas Welmina' to document 1
+Mar 13 08:38:52  [info] chaidir (10.240.4.3) op.EditDocumentFile.php ?documentid=1
+Mar 13 08:38:57  [info] chaidir (10.240.4.3) op.ResetSu.php 
+Mar 13 08:39:05  [info] admin (10.240.4.3) op.SubstituteUser.php?userid=3&formtoken=f32da9023eaed5ef264fb96685c2d8d7 ?userid=3
+Mar 13 08:39:33  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'chaidir@gmail.com' (6) failed.
+Mar 13 08:39:33  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'chaidir@gmail.com' (2) failed.
+Mar 13 08:39:33  [info] rasyid (10.240.4.3) op.ApproveDocument.php ?documentid=1&version=1&approvalType=ind&approvalStatus=1
+Mar 13 08:39:54  [info] rasyid (10.240.4.3) op.ResetSu.php 
+Mar 13 08:40:00  [info] admin (10.240.4.3) op.SubstituteUser.php?userid=5&formtoken=f32da9023eaed5ef264fb96685c2d8d7 ?userid=5
+Mar 13 08:40:21  [info] chaidir (10.240.4.3) op.OverrideContentStatus.php ?documentid=1
+Mar 13 08:40:44  [info] chaidir (10.240.4.3) op.ResetSu.php 

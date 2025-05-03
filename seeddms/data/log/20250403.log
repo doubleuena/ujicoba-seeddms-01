@@ -1,0 +1,46 @@
+Apr 03 21:46:22  [info] -- (182.2.144.4) op.Login.php 
+Apr 03 21:46:22  [info] Authentication service 'db'
+Apr 03 21:46:22  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Apr 03 21:52:08  [info] admin (182.2.144.4) op.DocumentAccess.php?formtoken=43f240e2a7433d63304c0a32510c5736&documentid=1&action=notinherit&mode=empty 
+Apr 03 21:55:41  [error] admin (182.2.144.4) op.CreateVersioningFiles.php?targetid=&targetname3f0d3ca8e81787497acc8c0e731ab0c8=  UI::exitError error=Invalid Folder ID pagetitle=Admin tools
+Apr 03 21:56:03  [info] admin (182.2.144.4) op.CreateVersioningFiles.php?targetid=2&targetname3f0d3ca8e81787497acc8c0e731ab0c8=Divisi+Umum 
+Apr 03 21:56:12  [info] admin (182.2.144.4) op.CreateVersioningFiles.php?targetid=3&targetname3f0d3ca8e81787497acc8c0e731ab0c8=Surat+Tugas+Welmina 
+Apr 03 22:30:16  [info] admin (182.2.144.4) op.AddSubFolder.php ?name=Test&folderid=2
+Apr 03 22:30:24  [info] admin (182.2.144.4) op.RemoveFolder.php ?folderid=6&name=Test
+Apr 03 22:30:36  [info] admin (182.2.144.4) op.AddSubFolder.php ?name=Test&folderid=1
+Apr 03 22:30:53  [error] admin (182.2.144.4) op.MoveFolder.php?formtoken=82c5af91349d6a367d17e55dbd4e4f8b&folderid=7&showtree=1&targetid=1&targetname3f0d3ca8e81787497acc8c0e731ab0c8=DMS  UI::exitError error=Target folder equals source folder pagetitle=Folder 'Test'
+Apr 03 22:31:19  [error] admin (182.2.144.4) op.MoveFolder.php?formtoken=82c5af91349d6a367d17e55dbd4e4f8b&folderid=7&showtree=1&targetid=7&targetname3f0d3ca8e81787497acc8c0e731ab0c8=Test  UI::exitError error=Invalid Target Folder ID pagetitle=Folder 'Test'
+Apr 03 22:31:37  [info] admin (182.2.144.4) op.EditFolder.php ?folderid=7
+Apr 03 22:34:13  [info] admin (182.2.144.4) op.AddDocument.php add document 4 in folder 7
+Apr 03 22:34:20  [info] Conversion from application/pdf to image/png with pdf service took 0.54585814476013 sec.
+Apr 03 22:34:24  [info] admin (182.2.144.4) op.Preview.php?documentid=4&version=1&width=40 
+Apr 03 22:34:24  [info] Conversion from application/pdf to image/png with pdf service took 0.1432409286499 sec.
+Apr 03 22:34:28  [info] admin (182.2.144.4) op.Download.php?documentid=4&version=1 
+Apr 03 22:34:28  [info] admin (182.2.144.4) op.Download.php?documentid=4&version=1 
+Apr 03 22:34:29  [info] admin (182.2.144.4) op.Download.php?documentid=4&version=1 
+Apr 03 22:34:32  [info] Conversion from application/pdf to image/png with pdf service took 0.14073204994202 sec.
+Apr 03 22:34:37  [info] admin (182.2.144.4) op.Preview.php?documentid=4&version=1&width=100 
+Apr 03 22:34:37  [info] Conversion from application/pdf to image/png with pdf service took 0.17949485778809 sec.
+Apr 03 22:35:21  [info] admin (182.2.144.4) op.UpdateDocument.php update document 4 with version 2
+Apr 03 22:37:58  [info] admin (182.2.144.4) op.EditDocument.php ?documentid=4
+Apr 03 23:17:36  [info] -- (182.2.144.4) op.Login.php 
+Apr 03 23:17:36  [info] Authentication service 'db'
+Apr 03 23:17:36  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Apr 03 23:20:01  [info] admin (182.2.144.4) op.EditDocument.php ?documentid=1
+Apr 03 23:22:39  [info] admin (182.2.144.4) op.EditDocument.php ?documentid=1
+Apr 03 23:24:28  [info] admin (182.2.144.4) op.AddDocument.php add document 5 in folder 7
+Apr 03 23:24:30  [info] Conversion from application/pdf to image/png with pdf service took 0.37845993041992 sec.
+Apr 03 23:24:31  [info] admin (182.2.144.4) op.Preview.php?documentid=5&version=1&width=40 
+Apr 03 23:24:31  [info] Conversion from application/pdf to image/png with pdf service took 0.1417818069458 sec.
+Apr 03 23:24:36  [info] Conversion from application/pdf to image/png with pdf service took 0.1435821056366 sec.
+Apr 03 23:24:36  [info] admin (182.2.144.4) op.Preview.php?documentid=5&version=1&width=100 
+Apr 03 23:24:36  [info] Conversion from application/pdf to image/png with pdf service took 0.1471688747406 sec.
+Apr 03 23:32:07  [info] admin (182.2.144.4) op.DocumentAccess.php?formtoken=71247338501a2fcab94c65cb06c66f32&documentid=4&action=notinherit&mode=empty 
+Apr 03 23:34:02  [info] admin (182.2.144.4) op.CreateVersioningFiles.php?targetid=1&targetname3f0d3ca8e81787497acc8c0e731ab0c8=DMS 
+Apr 03 23:35:07  [info] admin (182.2.144.4) op.UpdateDocument.php update document 4 with version 3
+Apr 03 23:35:07  [info] Conversion from application/pdf to image/png with pdf service took 0.14391207695007 sec.
+Apr 03 23:35:09  [info] admin (182.2.144.4) op.Preview.php?documentid=4&version=3&width=100 
+Apr 03 23:35:09  [info] Conversion from application/pdf to image/png with pdf service took 0.1499011516571 sec.
+Apr 03 23:36:14  [info] Conversion from application/pdf to image/png with pdf service took 0.15509486198425 sec.
+Apr 03 23:36:14  [info] admin (182.2.144.4) op.Preview.php?documentid=4&version=3&width=40 
+Apr 03 23:36:14  [info] Conversion from application/pdf to image/png with pdf service took 0.22830390930176 sec.

@@ -1,0 +1,52 @@
+Mar 14 14:46:06  [info] -- (10.240.3.196) op.Login.php 
+Mar 14 14:46:06  [info] Authentication service 'db'
+Mar 14 14:46:06  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Mar 14 15:25:03  [info] admin (10.240.2.23) op.RoleMgr.php .php&action=addrole&name=engineer
+Mar 14 15:25:08  [info] admin (10.240.4.3) op.RoleMgr.php .php&action=editrole&roleid=7
+Mar 14 15:25:25  [info] admin (10.240.4.3) op.RoleMgr.php .php&action=addrole&name=Document Controller
+Mar 14 15:25:30  [info] admin (10.240.4.3) op.RoleMgr.php .php&action=editrole&roleid=8
+Mar 14 15:25:52  [info] admin (10.240.2.23) op.GroupMgr.php &action=addgroup&name=Divisi Riset
+Mar 14 15:25:55  [info] admin (10.240.2.23) op.GroupMgr.php ?groupid=2&action=editgroup
+Mar 14 15:26:34  [info] admin (10.240.2.23) op.UsrMgr.php .php&action=adduser&login=amir
+Mar 14 15:27:19  [info] admin (10.240.2.23) op.UsrMgr.php .php&action=adduser&login=ari
+Mar 14 15:27:58  [info] admin (10.240.2.23) op.UsrMgr.php .php&action=adduser&login=neli
+Mar 14 15:28:26  [info] admin (10.240.2.23) op.AddSubFolder.php ?name=Divisi Riset&folderid=1
+Mar 14 15:29:16  [info] admin (10.240.2.23) op.AddSubFolder.php ?name=Laporan Hasil Eksplorasi di Cepu Jawa Tengah&folderid=4
+Mar 14 15:29:58  [info] admin (10.240.2.23) op.EditFolder.php ?folderid=5
+Mar 14 15:30:49  [info] admin (10.240.2.23) op.FolderAccess.php?formtoken=f86ca54f9a14f393c3f2e16acce8fdf4&action=setowner&folderid=4&ownerid=1 
+Mar 14 15:31:04  [info] admin (10.240.2.23) op.SubstituteUser.php?userid=8&formtoken=52d2fa04de3237dc19678a9de2787cda ?userid=8
+Mar 14 15:32:41  [info] neli (10.240.2.23) op.ResetSu.php 
+Mar 14 15:34:43  [info] admin (10.240.2.23) op.FolderAccess.php?formtoken=f86ca54f9a14f393c3f2e16acce8fdf4&folderid=4&action=notinherit&mode=empty 
+Mar 14 15:35:50  [info] admin (10.240.4.161) op.FolderAccess.php?formtoken=f86ca54f9a14f393c3f2e16acce8fdf4&folderid=4&action=setdefault&mode=1 
+Mar 14 15:36:08  [info] admin (10.240.2.99) op.FolderAccess.php?formtoken=f86ca54f9a14f393c3f2e16acce8fdf4&folderid=4&action=addaccess&userid=-1&groupid=2&mode=4 
+Mar 14 15:36:11  [info] admin (10.240.2.99) op.FolderAccess.php?formtoken=f86ca54f9a14f393c3f2e16acce8fdf4&folderid=4&action=editaccess&groupid=2&mode=4 
+Mar 14 15:36:21  [info] admin (10.240.2.99) op.SubstituteUser.php?userid=8&formtoken=52d2fa04de3237dc19678a9de2787cda ?userid=8
+Mar 14 15:37:44  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'amir@gmail.com' (3) failed.
+Mar 14 15:37:44  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'ari@gmail.com' (3) failed.
+Mar 14 15:37:44  [info] neli (10.240.4.161) op.AddDocument.php add document 2 in folder 5
+Mar 14 15:37:52  [info] neli (10.240.2.23) op.ResetSu.php 
+Mar 14 15:38:00  [info] admin (10.240.3.196) op.SubstituteUser.php?userid=6&formtoken=52d2fa04de3237dc19678a9de2787cda ?userid=6
+Mar 14 15:38:12  [info] amir (10.240.2.23) op.Download.php?documentid=2&version=1 
+Mar 14 15:39:02  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'neli@gmail.com' (6) failed.
+Mar 14 15:39:02  [info] amir (10.240.4.161) op.ReviewDocument.php documentid=2&version=1&reviewType=ind&reviewStatus=1
+Mar 14 15:39:09  [info] amir (10.240.0.69) op.ResetSu.php 
+Mar 14 15:39:15  [info] admin (10.240.0.69) op.SubstituteUser.php?userid=7&formtoken=52d2fa04de3237dc19678a9de2787cda ?userid=7
+Mar 14 15:39:52  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'neli@gmail.com' (6) failed.
+Mar 14 15:39:52  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'neli@gmail.com' (2) failed.
+Mar 14 15:39:52  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'amir@gmail.com' (4) failed.
+Mar 14 15:39:52  [info] ari (10.240.0.69) op.ReviewDocument.php documentid=2&version=1&reviewType=ind&reviewStatus=1
+Mar 14 15:40:04  [info] ari (10.240.0.69) op.ResetSu.php 
+Mar 14 15:40:15  [info] admin (10.240.4.3) op.SubstituteUser.php?userid=8&formtoken=52d2fa04de3237dc19678a9de2787cda ?userid=8
+Mar 14 15:43:51  [info] neli (10.240.2.99) op.AddFile.php add file 'FINAL Laporan Hasil Eksplorasi Uranium di Cepu Jawa Tengah.docx' to document 2
+Mar 14 15:43:56  [info] neli (10.240.2.99) op.ResetSu.php 
+Mar 14 15:44:04  [info] admin (10.240.4.161) op.SubstituteUser.php?userid=6&formtoken=52d2fa04de3237dc19678a9de2787cda ?userid=6
+Mar 14 15:44:22  [info] amir (10.240.4.161) op.Download.php?documentid=2&file=2 
+Mar 14 15:44:49  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'neli@gmail.com' (6) failed.
+Mar 14 15:44:49  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'neli@gmail.com' (2) failed.
+Mar 14 15:44:49  [info] amir (10.240.2.23) op.ApproveDocument.php ?documentid=2&version=1&approvalType=ind&approvalStatus=1
+Mar 14 15:44:54  [info] amir (10.240.2.23) op.ResetSu.php 
+Mar 14 15:45:01  [info] admin (10.240.2.23) op.SubstituteUser.php?userid=8&formtoken=52d2fa04de3237dc19678a9de2787cda ?userid=8
+Mar 14 15:45:22  [info] neli (10.240.2.23) op.OverrideContentStatus.php ?documentid=2
+Mar 14 15:46:20  [info] neli (10.240.2.23) op.AddDocument.php add document 3 in folder 5
+Mar 14 15:46:33  [info] neli (10.240.2.23) op.OverrideContentStatus.php ?documentid=3
+Mar 14 15:46:45  [info] neli (10.240.2.23) op.OverrideContentStatus.php ?documentid=3

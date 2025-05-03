@@ -1,0 +1,4 @@
+Apr 01 13:04:48  [info] -- (10.240.1.34) op.Login.php 
+Apr 01 13:04:48  [info] Authentication service 'db'
+Apr 01 13:04:48  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Apr 01 13:11:40  [info] admin (10.240.1.166) op.SubstituteUser.php?userid=5&formtoken=d013fef3cb3c07270b0095aea05d1e3e ?userid=5

@@ -1,0 +1,22 @@
+Latihan Demo (ID 4)
+
+Owner = Administrator <info@seeddms.org>
+Created = 2025-04-03 22:34:13
+
+### Current version ###
+
+Version = 2
+File = KELAS B_SOAL UTS MANAJEMEN PENGETAHUAN_MARET 2025.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)
+Comment = 
+Status = Released
+
+### Reviewers ###
+
+### Approvers ###
+
+### Previous versions ###
+
+Version = 1
+File = Welmina_2306216314 (3).pdf (application/pdf)
+Comment = 
+Status = Released

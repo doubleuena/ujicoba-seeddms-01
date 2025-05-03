@@ -1,0 +1,17 @@
+FINAL Laporan Hasil Eksplorasi Uranium di Cepu Jawa Tengah (ID 3)
+
+Owner = neli <neli@gmail.com>
+Created = 2025-03-14 15:46:20
+
+### Current version ###
+
+Version = 2
+File = FINAL Laporan Hasil Eksplorasi Uranium di Cepu Jawa Tengah.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)
+Comment = 
+Status = Released
+
+### Reviewers ###
+
+### Approvers ###
+
+### Previous versions ###
